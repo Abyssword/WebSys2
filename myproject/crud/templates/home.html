@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home - University{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <img src="{% static 'img1.png' %}" class="img-fluid" alt="Image 1">
+    </div>
+    <div class="col-md-6">
+      <h1>History</h1>
+      <p>The Technological Institute of the Philippines (T.I.P.) is one of the premier engineering schools in the country, distinguished not only for its excellence in engineering but also for its diverse undergraduate programs in architecture, computer studies, business, education, and the arts. T.I.P. also offers senior high school academic tracks and postgraduate studies in selected engineering and computing disciplines.  It is a private non-sectarian stock school founded on February 8, 1962 by a group of educators headed by Engineer Demetrio A. Quirino, Jr. and Dr. Teresita U. Quirino. Using an outcomes-based educational model with its locally and globally accredited programs, T.I.P. produces graduates who are ready to serve the needs of industries, contribute to the economic development of the nation, or pursue technopreneurship to help solve societal problems.</p>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col-md-6 order-md-2">
+      <img src="{% static 'img1.png' %}" class="img-fluid" alt="Image 2">
+    </div>
+    <div class="col-md-6 order-md-1">
+      <h1>Vision & Mission</h1>
+      <br><br>
+     <h3> Vision </h3>
+ 
+
+       <p> We envision a better life for Filipinos by empowering our students with the best globally competitive technological education in engineering, computing, and allied disciplines.
+        
+      </p>  
+        
+       <h3> Mission</h3>
+         
+        
+       <p> Through digitalization and innovation in academic design and delivery, T.I.P. students, faculty, staff, and industry partners work together in both traditional and online/flexible learning to transform our students to achieve optimal student outcomes:
+        
+         
+        
+        Full competence in their fields of study
+        Ability to apply their competencies, mindsets, and values to serve the needs of industry or to pursue technopreneurship to solve societal problems.</p>
+    </div>
+  </div>
+</div>
+{% endblock content %}
